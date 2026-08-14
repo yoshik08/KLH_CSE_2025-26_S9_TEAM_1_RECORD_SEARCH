@@ -25,6 +25,6 @@ java -cp bin Main data/student_records.csv
 
 ## Upgrading the string matching algorithm later
 Only SimpleStringMatcher.java needs to change (or add a new class implementing
-StringMatcher, e.g. FuzzyStringMatcher using Levenshtein distance) and update
+StringMatcher, e.g. FuzzyStringMatcher) and update
 the one line in Main.java that constructs the matcher. No other file needs
 to change.
