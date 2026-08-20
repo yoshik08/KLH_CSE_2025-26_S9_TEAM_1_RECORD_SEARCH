@@ -152,3 +152,4 @@ public class PatternSearch {
         System.out.println("Goodbye!");
     }
 }
+ 
