@@ -34,11 +34,7 @@ they always match the current CSV data.
 5:   **KMP pattern search** over the generated text corpus (Review-2 focus)
 
 ## Why documents are grouped by Class, not one file per student
-10,000 individual files would be unmanageable to demo or search across.
-Raw CSV rows aren't real "text documents." Grouping by Class (8 files)
-keeps the corpus small enough to inspect directly, while each document
-is still a genuine block of prose covering ~1,200-1,300 students, so a
-single pattern search still reaches the whole dataset.
+If a teacher needs to work with data from, say, 10,000 students, managing and searching through that many individual files would be impractical. As a simple workaround, we generate .txt files containing the data for each class.
 
 ## About the KMP algorithm (PatternSearch.java)
 Knuth-Morris-Pratt (KMP) finds every occurrence of a pattern in a text in
