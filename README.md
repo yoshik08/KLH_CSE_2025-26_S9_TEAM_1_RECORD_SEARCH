@@ -41,7 +41,7 @@ is still a genuine block of prose covering ~1,200-1,300 students, so a
 single pattern search still reaches the whole dataset.
 
 ## About the KMP algorithm (PatternSearch.java)
-Knuth-Morris-Pratt finds every occurrence of a pattern in a text in
+Knuth-Morris-Pratt (KMP) finds every occurrence of a pattern in a text in
 O(n + m) time (n = text length, m = pattern length), instead of the
 naive algorithm's worst-case O(n*m). It precomputes an LPS ("longest
 proper prefix that is also a suffix") array for the pattern. On a
