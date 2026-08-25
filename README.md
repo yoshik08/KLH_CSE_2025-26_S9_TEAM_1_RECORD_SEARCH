@@ -12,9 +12,7 @@ src/
   CsvLoader.java              - loads corpus CSV into the repository
   CorpusBuilder.java          - generates text-document corpus (one file per Class)
   PatternSearch.java           - KMP algorithm + runs it across every document in
-                                  corpus/, kept in one file since it's one idea
-                                  (see comment block at the top of the file for
-                                  how to read/explain it during the review)
+                                  corpus/, kept in one file
   Main.java                  - console menu entry point
 data/
   student_records.csv        - source corpus (10,000 records, from Kaggle)
