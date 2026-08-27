@@ -5,15 +5,8 @@ Java console app for DSA-3 Project.
 ## Structure
 ```
 src/
-  Student.java              - data model + toProfileText() (builds corpus sentences)
-  StringMatcher.java         - interface for field-search matching algorithm
-  SimpleStringMatcher.java   - basic case-insensitive substring match
-  StudentRepository.java     - ArrayList + HashMap-indexed storage, field search
-  CsvLoader.java              - loads corpus CSV into the repository
-  CorpusBuilder.java          - generates text-document corpus (one file per Class)
   PatternSearch.java           - KMP algorithm + runs it across every document in
                                   corpus/, kept in one file
-  Main.java                  - console menu entry point
 data/
   student_records.csv        - source corpus (10,000 records, from Kaggle)
 corpus/
