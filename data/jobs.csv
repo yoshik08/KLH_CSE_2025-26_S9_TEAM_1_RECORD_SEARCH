@@ -1,0 +1,9 @@
+JobID,Title,Openings,RequiredSkills
+J1,Backend Developer,2,"JAVA;SQL"
+J2,Frontend Developer,2,"REACT;HTML"
+J3,Full Stack Developer,1,"JAVA;REACT"
+J4,Data Analyst,2,"PYTHON;SQL"
+J5,ML Engineer,1,"PYTHON;ML"
+J6,Cloud Engineer,1,"CLOUD;PYTHON"
+J7,Java Developer,3,"JAVA"
+J8,Node.js Developer,1,"NODE;JAVA"
